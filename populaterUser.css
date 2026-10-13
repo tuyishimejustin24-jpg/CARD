@@ -1,0 +1,119 @@
+/* Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  background-color: #707375;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+/* Title */
+.title h1 {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.title p {
+  color: rgba(54, 53, 53, 0.504);
+}
+
+/* Search */
+.search {
+  width: 25%;
+  position: relative;
+}
+
+.search i {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+
+.search input {
+  width: 100%;
+  padding: 5px 30px;
+  outline: none;
+  border: none;
+  background-color: white;
+  border-radius: 8px;
+}
+
+/* Main */
+main {
+  padding: 20px 60px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid gray;
+}
+
+table thead tr th {
+  text-align: left;
+  padding: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.346);
+  background-color: rgb(37, 35, 56);
+  color: white;
+}
+
+table tbody tr td {
+  padding: 5px;
+  border-bottom: 1px solid gray;
+}
+
+/* Table Row Colors */
+tbody tr:nth-child(odd) {
+  background-color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgba(160, 159, 159, 0.631);
+}
+
+button{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+}
+
+
+form {
+    background-color: rgb(37, 35, 56);
+    position: absolute;
+    color: white;
+    padding: 30px;
+    margin: auto;
+    width: 500px;
+    left: 20%;
+    top: 25%;
+}
+
+.form-input {
+    padding: 10px;
+    color: gray;
+    margin: 10px 10px;
+}
+
+.form-button {
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-weight: 900;
+    color: white;
+}
